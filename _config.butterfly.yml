@@ -111,6 +111,8 @@ inject:
   bottom:
     - <script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
     - <script defer data-pjax src="js/cat.js"></script>
+    - <canvas id="snow"></canvas> # 雪花画布
+    - <script async src="js/snow.js"></script> # 雪花特效
 post_meta:
   page: # Home Page
     date_type: both # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
